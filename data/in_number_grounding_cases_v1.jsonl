@@ -1,0 +1,26 @@
+{"id": "c01", "category": "crore_as_million", "source": "The film collected ₹150 crore worldwide in its first week.", "summary": "The film made 150 million rupees in week one.", "expected_problems": ["150 million rupees"]}
+{"id": "c02", "category": "crore_as_million", "source": "Net profit rose to Rs 820 crore.", "summary": "Net profit rose to Rs 820 million.", "expected_problems": ["Rs 820 million"]}
+{"id": "c03", "category": "crore_ok", "source": "Net profit rose to Rs 820 crore.", "summary": "Net profit rose to Rs 8.2 billion.", "expected_problems": []}
+{"id": "c04", "category": "crore_ok", "source": "The film collected ₹150 crore worldwide.", "summary": "It grossed ₹1.5 billion worldwide.", "expected_problems": []}
+{"id": "c05", "category": "lakh_crore_swap", "source": "Day one collections were ₹2.47 lakh at the single screen.", "summary": "Day one collections were ₹2.47 crore.", "expected_problems": ["₹2.47 crore"]}
+{"id": "c06", "category": "lakh_ok", "source": "Day one collections were ₹2.47 lakh at the single screen.", "summary": "Day one: ₹2,47,000.", "expected_problems": []}
+{"id": "c07", "category": "indian_grouping", "source": "Total outlay: ₹2,50,00,000.", "summary": "Total outlay of ₹2.5 crore.", "expected_problems": []}
+{"id": "c08", "category": "indian_grouping", "source": "Total outlay: ₹2,50,00,000.", "summary": "Total outlay of ₹25 lakh.", "expected_problems": ["₹25 lakh"]}
+{"id": "c09", "category": "composite", "source": "The prize money is Rs 1 crore 25 lakh.", "summary": "The prize is Rs 1.25 crore.", "expected_problems": []}
+{"id": "c10", "category": "composite", "source": "The prize money is Rs 1 crore 25 lakh.", "summary": "The prize is Rs 12.5 million.", "expected_problems": []}
+{"id": "c11", "category": "lakh_crore", "source": "The Union Budget sets capital expenditure at ₹11.11 lakh crore.", "summary": "Capex is ₹11.11 trillion.", "expected_problems": []}
+{"id": "c12", "category": "lakh_crore", "source": "The Union Budget sets capital expenditure at ₹11.11 lakh crore.", "summary": "Capex is ₹11.11 billion.", "expected_problems": ["₹11.11 billion"]}
+{"id": "c13", "category": "thousand_crore", "source": "The order book stands at ₹45 thousand crore.", "summary": "The order book is ₹450 billion.", "expected_problems": []}
+{"id": "c14", "category": "rounding", "source": "Revenue was ₹1,234.56 crore.", "summary": "Revenue was about ₹1,235 crore.", "expected_problems": []}
+{"id": "c15", "category": "rounding", "source": "Revenue was ₹1,234.56 crore.", "summary": "Revenue was ₹1.2 crore.", "expected_problems": ["₹1.2 crore"]}
+{"id": "c16", "category": "percent", "source": "Sales grew 12.5% year on year.", "summary": "Sales grew 12.5 per cent.", "expected_problems": []}
+{"id": "c17", "category": "percent", "source": "Sales grew 12.5% year on year.", "summary": "Sales grew 15%.", "expected_problems": ["15%"]}
+{"id": "c18", "category": "invented", "source": "The company hired 1,200 people this year.", "summary": "The company hired 1,200 people and opened 40 offices.", "expected_problems": ["40"]}
+{"id": "c19", "category": "conversion", "source": "The deal is worth ₹830 crore.", "summary": "The deal is worth ₹830 crore (about $100 million).", "expected_problems": []}
+{"id": "c20", "category": "devanagari", "source": "कुल राशि ₹४५ करोड़ है। The total is ₹45 crore.", "summary": "Total: ₹45 crore.", "expected_problems": []}
+{"id": "c21", "category": "lac_spelling", "source": "Loan of Rs. 5 lacs sanctioned.", "summary": "A Rs 5 lakh loan was sanctioned.", "expected_problems": []}
+{"id": "c22", "category": "short_cr", "source": "Market cap: ₹3,200 Cr.", "summary": "Market cap is ₹32 billion.", "expected_problems": []}
+{"id": "c23", "category": "short_cr", "source": "Market cap: ₹3,200 Cr.", "summary": "Market cap is ₹3.2 billion.", "expected_problems": ["₹3.2 billion"]}
+{"id": "c24", "category": "currency", "source": "The fee is ₹500.", "summary": "The fee is $500.", "expected_problems": ["$500"]}
+{"id": "c25", "category": "years", "source": "In 2024 the scheme paid ₹6,000 to each farmer.", "summary": "In 2024 each farmer got ₹6,000.", "expected_problems": []}
+{"id": "c26", "category": "western_grouping", "source": "Subscribers reached 25,000,000.", "summary": "Subscribers reached 2.5 crore.", "expected_problems": []}
