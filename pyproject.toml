@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "in-number-grounding"
+version = "0.1.0"
+description = "Check rupee amounts (lakh, crore, Indian grouping) in an AI-written summary against its source."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "NEXUS tools" }]
+keywords = ["mcp", "mcp-server", "india", "lakh", "crore", "ai-agents", "hallucination", "grounding"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Natural Language :: English",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.scripts]
+in-number-grounding = "innumground.server:main"
+
+[project.urls]
+Homepage = "https://github.com/japan-ai-tools/in-number-grounding"
+Source = "https://github.com/japan-ai-tools/in-number-grounding"
+
+[tool.setuptools]
+packages = ["innumground"]
