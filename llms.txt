@@ -1,0 +1,8 @@
+# IN Number Grounding
+
+> Checks the rupee amounts, numbers and percentages in an AI-written English summary against the Indian source text. Reads lakh/lac/L, crore/cr, lakh crore, thousand crore, "1 crore 25 lakh", Indian digit grouping (2,50,00,000), Western grouping, million/billion, ₹/Rs/INR/$ and Devanagari digits. Names scale errors: crore_read_as_million (10x), lakh_crore_swap (100x), scale_mismatch, currency_mismatch; reports conversion_unverified for amounts in another currency. MCP server, CLI, Python. Stdlib, no network, MIT.
+
+- innumground/ground.py: extract(text), check(source, summary, tolerance=0.1), format_inr(value), indian_group(value)
+- innumground/server.py: MCP stdio server; tools in_number_grounding_check, in_number_extract, in_amount_format
+- data/in_number_grounding_cases_v1.jsonl: 26 cases; python -m innumground.bench
+- tests/test_innumground.py: 35 tests
